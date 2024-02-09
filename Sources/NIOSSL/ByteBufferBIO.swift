@@ -15,7 +15,7 @@
 import NIOCore
 @_implementationOnly import CNIOBoringSSL
 
-#if os(macOS) || os(iOS) || os(watchOS) || os(tvOS)
+#if os(macOS) || os(visionOS) || os(iOS) || os(watchOS) || os(tvOS)
 import Darwin.C
 #elseif os(Linux) || os(FreeBSD) || os(Android)
 import Glibc
